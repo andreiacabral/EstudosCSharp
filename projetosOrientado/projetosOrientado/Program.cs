@@ -8,25 +8,27 @@ namespace CalculoAreaTriangulo
     {
         static void Main(string[] args)
         {
-            double xA, xB, xC, yA,yB,yC;
-            Console.WriteLine("entre com as medidas do triangulo y: ");
+            var trianguloY = new Triangulo { };
+            var trianguloX = new Triangulo { };
 
-            yA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            yB = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            yC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine("entre com as medidas do triangulo y: ");
+            trianguloY.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            trianguloY.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            trianguloY.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double areaY = trianguloY.Area();
+
+           
 
 
             Console.WriteLine("entre com as medidas do triangulo x: ");
-            xA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            xB = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            xC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            trianguloX.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            trianguloX.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            trianguloX.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
+            double areaX = trianguloX.Area();
 
-            double p = (xA + xB + xC) / 2.0;
-            double areaX = Math.Sqrt(p * (p - xA) * (p - xB) * (p - xC));
-
-            p = (yA + yB + yC) / 2.0;
-            double areaY = Math.Sqrt(p * (p - yA) * (p - yB) * (p - yC));
 
             Console.WriteLine("Área de x= " + areaX.ToString("F4",CultureInfo.InvariantCulture));
             Console.WriteLine("Área de y= " + areaY.ToString("F4", CultureInfo.InvariantCulture));
