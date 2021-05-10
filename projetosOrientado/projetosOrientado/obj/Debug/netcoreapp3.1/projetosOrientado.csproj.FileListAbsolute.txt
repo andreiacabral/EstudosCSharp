@@ -1,0 +1,13 @@
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\bin\Debug\netcoreapp3.1\projetosOrientado.exe
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\bin\Debug\netcoreapp3.1\projetosOrientado.deps.json
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\bin\Debug\netcoreapp3.1\projetosOrientado.runtimeconfig.json
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\bin\Debug\netcoreapp3.1\projetosOrientado.runtimeconfig.dev.json
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\bin\Debug\netcoreapp3.1\projetosOrientado.dll
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\bin\Debug\netcoreapp3.1\projetosOrientado.pdb
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\obj\Debug\netcoreapp3.1\projetosOrientado.csprojAssemblyReference.cache
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\obj\Debug\netcoreapp3.1\projetosOrientado.AssemblyInfoInputs.cache
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\obj\Debug\netcoreapp3.1\projetosOrientado.AssemblyInfo.cs
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\obj\Debug\netcoreapp3.1\projetosOrientado.csproj.CoreCompileInputs.cache
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\obj\Debug\netcoreapp3.1\projetosOrientado.dll
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\obj\Debug\netcoreapp3.1\projetosOrientado.pdb
+C:\Users\lg_pi\source\repos\projetosOrientado\projetosOrientado\obj\Debug\netcoreapp3.1\projetosOrientado.genruntimeconfig.cache
