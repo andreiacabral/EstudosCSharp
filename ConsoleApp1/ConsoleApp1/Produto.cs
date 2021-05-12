@@ -13,13 +13,18 @@ namespace ConsoleApp1
         
         public Produto()
         {
-
+            Quantidade = 10;
         }
+        
 
-        public Produto(string nome, double preco)
+        public Produto(string nome, double preco) : this ()
         {
             Nome = nome;
             Preco = preco;
+        }
+        public Produto(string nome, double preco, int quantidade): this (nome,preco)
+        {
+
         }
 
         public double ValorTotalEmEstoque()

@@ -7,20 +7,22 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-           
-
-
-
             Console.WriteLine("Entre os dados do produto:");
             Console.Write("Nome: ");
             string Nome = Console.ReadLine();
             Console.Write("Preço: ");
             double Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-           
+            Produto p = new Produto(Nome, Preco);
 
+            Produto p2 = new Produto();
 
-            Produto p = new Produto(Nome,Preco,0);
+            Produto p3 = new Produto
+            {
+                Nome = "TV",
+                Preco = 500.00,
+                Quantidade = 20
+            };
 
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);
