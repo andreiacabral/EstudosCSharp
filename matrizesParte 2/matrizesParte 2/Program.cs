@@ -39,7 +39,7 @@ namespace matrizesParte_2
                     }
                 }
             }
-            Console.WriteLine("Negative numbert: " + count);
+            Console.WriteLine("Negative numbers: " + count);
         }
     }
 }
