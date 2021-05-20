@@ -9,7 +9,8 @@ namespace FuncoesInterssantesParaString
             string original = "abcde FGHIJ ABC abc DEFG    ";
 
             
-
+            //ToUpper deixa Maiusculo
+            //ToLower deixa minusculo
             string s1 = original.ToUpper();
             string s2 = original.ToLower();
             string s3 = original.Trim();
