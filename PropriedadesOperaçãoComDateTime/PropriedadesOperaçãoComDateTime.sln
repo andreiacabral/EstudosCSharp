@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropriedadesOperaçãoComDateTime", "PropriedadesOperaçãoComDateTime\PropriedadesOperaçãoComDateTime.csproj", "{4BF0B5AA-27A1-4411-A3B3-67B69D793B07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF0B5AA-27A1-4411-A3B3-67B69D793B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF0B5AA-27A1-4411-A3B3-67B69D793B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF0B5AA-27A1-4411-A3B3-67B69D793B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF0B5AA-27A1-4411-A3B3-67B69D793B07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D9E7431-DB55-44DA-9256-55F0CEFA9E07}
+	EndGlobalSection
+EndGlobal
