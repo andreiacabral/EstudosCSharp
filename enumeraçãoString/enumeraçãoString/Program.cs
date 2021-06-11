@@ -16,6 +16,9 @@ namespace enumeraçãoString
             };
 
             Console.WriteLine(orden);
+
+
+
         }
     }
 }
