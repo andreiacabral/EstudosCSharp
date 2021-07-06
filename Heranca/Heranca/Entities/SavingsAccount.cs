@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Heranca.Entities
 {
-    class SavingsAccount: Account
+    sealed class SavingsAccount: Account
     {
         public double InterestRate { get; set; }
         public SavingsAccount()
